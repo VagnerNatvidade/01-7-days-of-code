@@ -1,0 +1,100 @@
+.fa-bars {
+  display: none;
+}
+
+header {
+  display: flex;
+  padding: 1.8rem 10%;
+}
+
+.logo_container,
+.navigation,
+.signin_container {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.logo_container h1 {
+  font-weight: 600;
+}
+
+.navigation {
+  flex: 1;
+  gap: 3.2rem;
+  margin: 0 5%;
+}
+
+.navigation a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: var(--pri-color);
+  transition: all 0.2s ease;
+}
+
+.navigation a:hover::after {
+  width: 100%;
+}
+
+header a,
+header i {
+  color: var(--gray-color);
+}
+
+.signin_container {
+  gap: 1.6rem;
+}
+
+.signin_container a {
+  padding: 1.2rem 1.8rem;
+}
+
+.signin {
+  border-radius: 0.8rem;
+  transition: 0.2s ease;
+}
+
+.signup,
+.signin:hover {
+  border-radius: 0.8rem;
+  color: var(--light-color);
+  background: var(--pri-color);
+  transition: 0.2s ease;
+}
+
+.signup:hover {
+  filter: brightness(0.75);
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    padding: 1.8rem 5%;
+  }
+
+  .fa-bars {
+    display: initial;
+    font-size: 1.8rem;
+  }
+
+  .fa-bars:hover {
+    color: var(--pri-color);
+    cursor: pointer;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .signin_container {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .signin,
+  .signup {
+    display: none;
+  }
+}
