@@ -62,5 +62,37 @@ main {
   width: 100%;
   height: 40rem;
   object-fit: cover;
-  margin: 6.4rem 0;
+}
+
+.hiri-container {
+  padding: 0 20% 10rem;
+  text-align: left;
+}
+
+.hiri-container h2 {
+  margin-bottom: 3.2rem;
+  font-size: 2rem;
+}
+
+.hire-card + h2 {
+  margin-top: 6.4rem;
+}
+
+.hire-card {
+  padding: 2.4rem;
+  margin-bottom: 2.4rem;
+  border-radius: 1.6rem;
+  border: 0.1rem solid #dadcdf;
+}
+
+.hire-tittle {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.time-money {
+  display: flex;
+  gap: 2.4rem;
+  margin-top: 3.2rem;
+  color: var(--gray-color);
 }
