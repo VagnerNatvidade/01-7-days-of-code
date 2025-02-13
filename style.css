@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("./styles/header.css");
 @import url("./styles/main.css");
+@import url("./styles/footer.css");
 
 * {
   margin: 0;
@@ -15,7 +16,7 @@
 
   --light-color: #ffffff;
   --dark-color: #3a404e;
-  --gray-color: #;
+  --gray-color: #667085;
   --pri-color: #8e2424;
 }
 

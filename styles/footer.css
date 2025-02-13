@@ -1,0 +1,51 @@
+footer {
+  padding: 10rem 5%;
+}
+
+footer > div {
+  max-width: 80rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer h2 {
+  margin-bottom: 2rem;
+  font-size: 3.6rem;
+}
+
+footer .news {
+  font-size: 2rem;
+  color: var(--gray-color);
+}
+
+footer > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.2rem 0;
+}
+
+footer input {
+    width: 40%;
+  padding: 1.6rem;
+  border: 0.1rem solid #dadcdf;
+  border-radius: 0.8rem;
+}
+
+footer input::placeholder {
+  color: var(--gray-color);
+}
+
+footer button {
+  margin-left: 1.6rem;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  border-radius: 0.8rem;
+  color: var(--light-color);
+  background: var(--pri-color);
+}
+
+footer p:last-child {
+  font-size: 1.4rem;
+  color: var(--gray-color);
+}
