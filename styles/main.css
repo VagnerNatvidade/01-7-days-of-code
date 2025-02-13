@@ -12,7 +12,8 @@ main {
 }
 
 .about p:first-child,
-.team p:first-child {
+.team p:first-child,
+.collaborators p:first-child {
   font-weight: bold;
   color: var(--pri-color);
 }
@@ -94,5 +95,36 @@ main {
   display: flex;
   gap: 2.4rem;
   margin-top: 3.2rem;
+  color: var(--gray-color);
+}
+
+.collaborators {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 6.4rem;
+  text-align: center;
+  background: #8e242411;
+}
+
+.collaborators h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.collaborator img {
+  width: 5.6rem;
+  height: 5.6rem;
+  margin: 3.2rem 0 1.6rem;
+  border-radius: 50rem;
+  object-fit: cover;
+}
+
+.collaborator img + p {
+  font-weight: 600;
+}
+
+.collaborator .work {
+  font-size: 1.4rem;
   color: var(--gray-color);
 }
