@@ -33,9 +33,7 @@ Figma do projeto [aqui.](https://www.figma.com/design/nkEfRwDR149c6TRkgFPgU3/01-
 
 ## <a id="acess">📁 Acesso ao projeto</a>
 
-[link](http://example.com "Title")
-
-Para abrir e rodar o projeto, basta clona-lo em sua máquina e abrir o aquivo index.html no navegador.
+Você pode acessar o app clicando [aqui.](https://github.com/VagnerNatvidade/01-7-days-of-code "link do githup").
 
 ## <a id="run">👨‍💻 Abrir e rodar o projeto</a>
 
