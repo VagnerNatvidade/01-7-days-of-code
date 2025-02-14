@@ -1,9 +1,9 @@
-![capa readme](./assets/images/capa_readme.png)
+![preview do site](./assets/images/capa_readme.png)
 
-<h1 style="text-align: center">Desafio 7 Days Of Code</h1>
-<p style="text-align: center">Crie uma página de contratação para um empresa de TI.</p>
+<h1 style="text-align: center">Optimes Tech - Contratação</h1>
+<p style="text-align: center">Uma empresa de TI quer desenvolver uma página destinada a novas contratações.</p>
 
-## <a href="#status">🚧 Status: Em construção</a>
+## <a href="#status">🚧 Status: Finalizado</a>
 
 ### Navegação
 
@@ -17,30 +17,34 @@
 
 ## <a id="functionalities">⚙️ Funcionalidades</a>
 
-Em construção
-
-## <a id="figma">📱 Figma</a>
-
-Figma do projeto [aqui](https://www.figma.com/design/nkEfRwDR149c6TRkgFPgU3/1-7daysOfCode-HTML-CSS?node-id=0-1&p=f&t=X6MBkeOGoF7Rs9J0-0 "link do figma")
+O projeto para empresa OptimesTech foi desenvolvido com o ituito de empregar novos membros a equipe da empresa criando um site para que as pessoas possam se candidatar a vagas de emprego que a empresa disponibiliza.
 
 ## <a id="tech">💻 Técnicas e tecnologias utilizadas</a>
 
-Em construção
+HTML: O HTML foi usado para arquitetar o projeto com uma estrutura bem pensada e semântica para a boa leitura da máquina e um bom desenvolvimento do design do projeto com CSS.
+
+CSS: O CSS tem papel fundamental para indicar a interação do usuário com a interface gráfica: o que são links, tamanhos, acessibilidade, responsividade para que o projeto seja acessado por todos com uma boa experiêcia. Para isso usamos algumas técnicas como:
+
+Flex e Grid Responsividade Media Query
+
+## <a id="figma">📱 Figma</a>
+
+Figma do projeto [aqui.](https://www.figma.com/design/nkEfRwDR149c6TRkgFPgU3/01---7daysOfCode---HTML-CSS?node-id=0-1&p=f&t=fnCMVaaNxaoDSBI3-0 "figma do projeto")
 
 ## <a id="acess">📁 Acesso ao projeto</a>
 
-Em construção
+[link](http://example.com "Title")
+
+Para abrir e rodar o projeto, basta clona-lo em sua máquina e abrir o aquivo index.html no navegador.
 
 ## <a id="run">👨‍💻 Abrir e rodar o projeto</a>
 
-Em construção
+Apresente as instruções necessárias para abrir e executar o projeto
 
 ## <a id="more">📚 Mais informações do curso</a>
 
-Em construção
+Busque na plataforma da Alura o curso HTML e CSS para web e responsividade: crie páginas dinâmicas publicado na Escola Frontend.
 
 ## <a id="licence">✅ Licença</a>
 
-MIT License <br>
-Copyright (c) 2025 Vagner Junior Nativ <br>
-Permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software...
+MIT License <br> Copyright (c) 2025 Vagner Junior <br> Permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software...
